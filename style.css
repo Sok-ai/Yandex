@@ -9,12 +9,6 @@
   src: url(fonts/AnonymousPro-Regular.ttf);
 }
 
-root{
-    --mainColor-: #121723;
-    --black: #000;
-    --white: #fff;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -23,7 +17,7 @@ body {
     font-size: 16px;
     line-height: normal;
     font-family: "Anonymous Pro", sans-serif;
-    color: var(--mainColor-);
+    color: #121723;
     box-sizing: border-box;
 }
 
@@ -69,6 +63,8 @@ img {
     height: auto;
 }
 
+/* HEADER */
+
 .header{
     padding: 50px 0;
 }
@@ -90,4 +86,35 @@ img {
     color: var(--black-);
     font-size: 20px;
     font-weight: 700;
+}
+
+/* MAIN */
+
+.main{
+    background-color: #F1F1F1;
+    padding-top: 25px;
+}
+
+.content-title{
+    font-size: 48px;
+    line-height: 100%;
+}
+
+.content-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 25px;
+    gap: 25px;
+}
+
+.sneaker{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 12px;
+    background: #fff;
+    width: 100%;
+    max-width: 371px;
+    padding: 0 24px 32px 24px;
 }
