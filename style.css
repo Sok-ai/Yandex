@@ -44,13 +44,17 @@ li{
 }
 
 .title{
+    font-family: "Anonymous Pro", sans-serif;
     font-size: 26px;
     font-weight: 700;
+    color: #121723;
 }
 
 .subtitle{
+    font-family: "Anonymous Pro", sans-serif;
     font-size: 20px;
     font-weight: 400;
+    color: #121723;
 }
 
 p {
