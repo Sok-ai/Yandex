@@ -87,9 +87,10 @@ img {
 }
 
 .header-nav-list a{
-    color: var(--black-);
+    color: black;
     font-size: 20px;
     font-weight: 700;
+    line-height: normal;
 }
 
 /* MAIN */
@@ -172,6 +173,7 @@ img {
     gap: 24px;
 }
 
+
 .footer-subtitle{
     text-align: center;
     font-size: 16px;
@@ -184,4 +186,11 @@ hr{
     opacity: 40%;
     color:#676A73;
     margin-top: 33px;
+}
+
+.footer-nav-list a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
 }
